@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#a50920">
+  <meta name="description" content="CRAZE MC - Minecraft Java and Bedrock Network">
+  <title>CRAZE MC | Minecraft Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="CRAZE MC Home">
+      <img src="assets/logo.png" alt="CRAZE MC logo">
+      <span>CRAZE<span class="brand-accent">MC</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#store">Store</a>
+      <a href="#staff">Staff</a>
+      <a href="#join">How to Join</a>
+      <a href="#themes">Themes</a>
+      <a class="nav-discord" href="https://discord.gg/3pwyn9aneG" target="_blank" rel="noopener">Discord ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">✦ MINECRAFT JAVA & BEDROCK NETWORK ✦</p>
+        <h1>ENTER THE<br><span>CRAZE.</span></h1>
+        <p class="hero-copy">Your next adventure starts here. Join the network, explore new worlds and make your mark.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#join">HOW TO JOIN</a>
+          <a class="button ghost" href="#store">EXPLORE STORE</a>
+        </div>
+        <div class="hero-meta">
+          <span><b>JAVA + BEDROCK</b><small>Cross-platform access</small></span>
+          <span><b>COMMUNITY</b><small>Join our Discord</small></span>
+        </div>
+      </div>
+      <div class="hero-mark">
+        <img src="assets/logo.png" alt="CRAZE MC">
+        <span>BUILD YOUR LEGACY</span>
+      </div>
+    </section>
+
+    <section class="owner-banner section-wrap">
+      <p class="eyebrow">THE PEOPLE BEHIND CRAZE MC</p>
+      <h2>FOUNDER / OWNER</h2>
+      <div class="owner-names">KRXSH ZZ <span>/</span> FLICK ZZ</div>
+      <p>Building the CRAZE MC community.</p>
+    </section>
+
+    <section class="section-wrap store-section" id="store">
+      <div class="section-heading">
+        <div><p class="eyebrow">CRAZE MC STORE</p><h2>UPGRADE YOUR <span>GAME</span></h2></div>
+        <p>Choose an item and continue your purchase through Discord.</p>
+      </div>
+      <div class="store-tabs" role="tablist" aria-label="Store categories">
+        <button class="store-tab active" data-category="ranks">Ranks</button>
+        <button class="store-tab" data-category="keys">Keys</button>
+        <button class="store-tab" data-category="coins">Coins</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="price-note">Prices are displayed in Indian Rupees (INR) and US Dollars (USD). Final purchase details are confirmed on Discord.</p>
+    </section>
+
+    <section class="section-wrap staff-section" id="staff">
+      <div class="section-heading">
+        <div><p class="eyebrow">MEET THE TEAM</p><h2>OUR <span>STAFF</span></h2></div>
+        <p>The team behind your CRAZE MC experience.</p>
+      </div>
+      <div class="staff-grid">
+        <article class="staff-card">
+          <div class="crown-wrap"><img src="assets/founder-crown.png" alt="Blue crown"></div>
+          <p class="staff-role">FOUNDER / OWNER</p>
+          <h3>krxsh zz <i>/</i> flick zz</h3>
+        </article>
+        <article class="staff-card">
+          <div class="crown-wrap"><img src="assets/coowner-crown.png" alt="Green crown"></div>
+          <p class="staff-role">CO-OWNER</p>
+          <h3>_exesta1r_ <i>/</i> Azmaeen <i>/</i> ! Shadow!</h3>
+        </article>
+        <article class="staff-card coming-soon">
+          <div class="staff-symbol">✦</div>
+          <p class="staff-role">ADMIN</p>
+          <h3>Coming Soon</h3>
+        </article>
+        <article class="staff-card coming-soon">
+          <div class="staff-symbol">✦</div>
+          <p class="staff-role">MODERATOR</p>
+          <h3>Coming Soon</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="join-section section-wrap" id="join">
+      <div class="section-heading">
+        <div><p class="eyebrow">START PLAYING</p><h2>HOW TO <span>JOIN</span></h2></div>
+        <p>Join CRAZE MC in three simple steps.</p>
+      </div>
+      <div class="join-grid">
+        <article class="join-card"><b>01</b><h3>Open Minecraft</h3><p>Launch Minecraft Java or Bedrock Edition and open the Multiplayer / Servers menu.</p></article>
+        <article class="join-card"><b>02</b><h3>Add the Server</h3><p>Enter the server address and port shown below, then save the server.</p></article>
+        <article class="join-card"><b>03</b><h3>Join & Play</h3><p>Connect to CRAZE MC, meet the community and start your adventure.</p></article>
+      </div>
+      <div class="ip-panel">
+        <div class="ip-row"><div><small>JAVA IP</small><strong>play.crazemc.qzz.io:25649</strong></div><button class="copy-btn" data-copy="play.crazemc.qzz.io:25649">COPY</button></div>
+        <div class="ip-row"><div><small>BEDROCK IP</small><strong>play.crazemc.qzz.io</strong><small class="port-label">PORT: 25649</small></div><button class="copy-btn" data-copy="play.crazemc.qzz.io">COPY IP</button></div>
+      </div>
+      <a class="button primary discord-cta" href="https://discord.gg/3pwyn9aneG" target="_blank" rel="noopener">JOIN OUR DISCORD ↗</a>
+    </section>
+
+    <section class="theme-section section-wrap" id="themes">
+      <p class="eyebrow">MAKE IT YOURS</p>
+      <h2>CHOOSE YOUR <span>COLOUR</span></h2>
+      <p class="theme-description">Pick a website accent colour. Red is the default CRAZE MC theme.</p>
+      <div class="theme-options" aria-label="Choose website colour">
+        <button class="theme-choice selected" data-theme="red"><span class="swatch red"></span>Red</button>
+        <button class="theme-choice" data-theme="white"><span class="swatch white"></span>White</button>
+        <button class="theme-choice" data-theme="pink"><span class="swatch pink"></span>Pink</button>
+        <button class="theme-choice" data-theme="yellow"><span class="swatch yellow"></span>Yellow</button>
+        <button class="theme-choice" data-theme="green"><span class="swatch green"></span>Green</button>
+        <button class="theme-choice" data-theme="purple"><span class="swatch purple"></span>Purple</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">CRAZE MC</a>
+    <p>© 2026 CRAZE MC. All rights reserved.</p>
+    <a href="https://discord.gg/3pwyn9aneG" target="_blank" rel="noopener">Discord Community ↗</a>
+  </footer>
+
+  <div class="modal" id="buyModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <p class="eyebrow">CRAZE MC STORE</p>
+      <h2 id="modalProduct">Product</h2>
+      <p id="modalPrice" class="modal-price"></p>
+      <p class="modal-copy">Continue to Discord to confirm your order and purchase details.</p>
+      <a class="button primary modal-buy" href="https://discord.gg/3pwyn9aneG" target="_blank" rel="noopener">CONTINUE TO BUY ON DISCORD ↗</a>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
